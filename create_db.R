@@ -19,6 +19,10 @@ country.code <- "SY"
 location.type <- "UNHCR-Syria-Sites"
 reporting.frequency <- "monthly"
 
+# Alternate URL in case of IP blocking
+new.url <- "https://proxy.activityinfo.org"
+activityInfoRootUrl(new.url)
+
 
 ###################################################################
 ## Focus API variable

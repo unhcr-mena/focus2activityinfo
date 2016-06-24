@@ -1,4 +1,4 @@
-UNHCR Response Monitoring (PE0088)
+UNHCR Response Monitoring
 ==================================
 
 R scrips and data to create databases for UNHCR Geneva based on indicators that 
@@ -25,7 +25,7 @@ To **create a new database**, set a country (see the
 [ISO-3166-1 alpha 2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 standard for the two-letter country codes) in `create_db.R`, for example, 
 
-    country.code <- "PK"
+    country.code <- "SY"
 
 which is the country code for Pakistan. Provide a name and (optionally) a 
 description for the database. For example:

@@ -23,6 +23,9 @@ target.properties <- list(
   toDate = "2016-12-31"
 )
 
+# Alternate URL in case of IP blocking
+new.url <- "https://proxy.activityinfo.org"
+activityInfoRootUrl(new.url)
 
 
 
