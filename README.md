@@ -114,24 +114,23 @@ depending on which type of indicator is provided by the JSON. The following
 table gives an overview of which fields are required for the different
 indicator types:
 
-Field             output    budget    impact    attributes
----------------  --------  --------  --------  ------------
-OBJECTIVE         ×         ×         ×
-OUTPUT            ×         ×
-OUTPUT_MSRP_ID              ×
-PPG_NAME          ×         ×         ×
-PPG_CODE          ×         ×         ×
-GOAL              ×         ×         ×
-GOAL_MSRP_ID      ×         ×         ×
-INDICATOR         ×                   ×
-INDICATOR_ID      ×                   ×         ×
-IMP_TARGET        ×                   ×
-OL_BUDGET_OPS               ×
-ATTRIBUTE                                       ×
-ATTRIBUTE_ID                                    ×
-FORMULA                                         ×
-VARIABLE_NAME                                   ×
----------------  --------  --------  --------  ------------
+Field           |  output  |  budget  |  impact  |  attributes
+--------------- | -------- | -------- | -------- | ------------
+OBJECTIVE       |  ×       |  ×       |  ×       |
+OUTPUT          |  ×       |  ×       |          |
+OUTPUT_MSRP_ID  |          |  ×       |          |
+PPG_NAME        |  ×       |  ×       |  ×       |
+PPG_CODE        |  ×       |  ×       |  ×       |
+GOAL            |  ×       |  ×       |  ×       |
+GOAL_MSRP_ID    |  ×       |  ×       |  ×       |
+INDICATOR       |  ×       |          |  ×       |
+INDICATOR_ID    |  ×       |          |  ×       |  ×
+IMP_TARGET      |  ×       |          |  ×       |
+OL_BUDGET_OPS   |          |  ×       |          |
+ATTRIBUTE       |          |          |          |  ×
+ATTRIBUTE_ID    |          |          |          |  ×
+FORMULA         |          |          |          |  ×
+VARIABLE_NAME   |          |          |          |  ×
 
 Table: required fields in the JSON for the four different types of input files.
 
